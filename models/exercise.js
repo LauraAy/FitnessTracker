@@ -1,6 +1,6 @@
 const { model, Schema } = require('mongoose')
 
-module.exports = model('item', new Schema({
+module.exports = model('exercise', new Schema({
  name: {
    type: String,
    required: true
